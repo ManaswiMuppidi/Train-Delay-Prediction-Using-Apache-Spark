@@ -1,0 +1,34 @@
+
+# Python environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Dataset
+train_delay.csv
+cleaned_train_data/
+
+# Spark temporary files
+spark-warehouse/
+metastore_db/
+derby.log/
+
+# Generated model files
+train_delay_rf_model/
+train_delay_rf_model_temporal/
+train_delay_rf_model_v2/
+
+# Evaluation output
+model_evaluation/
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+# Scala / SBT generated files
+graphx/target/
+graphx/project/target/
+graphx/project/project/
